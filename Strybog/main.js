@@ -127,6 +127,7 @@ export default class Strybog{
     }
 
     GetHash(message){
+        if((this._bit!=512)&&(this._bit!=265)) return -1
         let paddedMsg = new Uint8Array(BLOCK_SIZE);
         let h = new Uint8Array(BLOCK_SIZE);
         let len = message.length;
@@ -175,4 +176,3 @@ export default class Strybog{
     }
 
 }
-
