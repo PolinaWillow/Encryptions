@@ -27,7 +27,7 @@ export default class Strybog{
         return res;
     }
 
-    addModule=(a, b)=>{
+    addModule = (a, b)=>{
         let res = new Uint8Array(64);
         let tmp = 0;
         let tmpA = new Uint8Array(64);
