@@ -14,6 +14,7 @@ console.log("\nen = "+en);
 let de= Grass.Decription(en)
 console.log("de = "+de);
 console.log("or = "+in_str)
+
 if(toString(de)==toString(in_str)){
     console.log("Расшифровка прошла успешно")
 }
